@@ -1,0 +1,5 @@
+C:/Users/korne/Desktop/projects on cpp/FaceApp-CPP/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/korne/Desktop/projects on cpp/FaceApp-CPP/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/korne/Desktop/projects on cpp/FaceApp-CPP/out/build/x64-Debug/FaceApp/CMakeFiles/FaceApp.dir
+C:/Users/korne/Desktop/projects on cpp/FaceApp-CPP/out/build/x64-Debug/FaceApp/CMakeFiles/edit_cache.dir
+C:/Users/korne/Desktop/projects on cpp/FaceApp-CPP/out/build/x64-Debug/FaceApp/CMakeFiles/rebuild_cache.dir
