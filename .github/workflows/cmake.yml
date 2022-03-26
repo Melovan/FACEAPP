@@ -25,7 +25,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Setup OpenCV
-    - uses: Dovyski/setup-opencv-action@v1
+      uses: Dovyski/setup-opencv-action@v1
 
 
     - name: Configure CMake
