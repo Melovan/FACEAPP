@@ -11,6 +11,9 @@ env:
   BUILD_TYPE: Release
 
 jobs:
+  
+
+
   build:
     # The CMake configure and build commands are platform agnostic and should work equally well on Windows or Mac.
     # You can convert this to a matrix build if you need cross-platform coverage.
@@ -18,6 +21,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Setup OpenCV
+    - uses: Dovyski/setup-opencv-action@v1
     - uses: actions/checkout@v2
 
     - name: Configure CMake
