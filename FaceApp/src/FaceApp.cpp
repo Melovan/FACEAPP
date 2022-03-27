@@ -4,7 +4,7 @@
 using namespace cv;
 using namespace std;
 
-int mabc() {
+int main() {
     string faceCascadeName = "resources/face.xml";
     CascadeClassifier faceCascade;
 
