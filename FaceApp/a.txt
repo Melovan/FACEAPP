@@ -4,6 +4,22 @@
 cmake_minimum_required (VERSION 3.8)
 
 project(FaceApp)
+
+#test
+set(CMAKE_CXX_STANDARD 14)
+
+include(FetchContent)
+FetchContent_Declare(
+        googletest
+        URL https://github.com/google/googletest/archive/609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip
+)
+# For Windows: Prevent overriding the parent project's compiler/linker settings
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+FetchContent_MakeAvailable(googletest)
+
+enable_testing()
+#test
+
 find_package( OpenCV REQUIRED )
 include_directories( ${OpenCV_INCLUDE_DIRS} )
 add_library(my_library include/FaceApp.h src/FaceApp.cpp)
@@ -11,7 +27,10 @@ add_library(my_library include/FaceApp.h src/FaceApp.cpp)
 target_include_directories(my_library PUBLIC "include")
 # Добавьте источник в исполняемый файл этого проекта.
 add_executable (FaceApp src/FaceApp.cpp )
+add_executable(CMakeTest CMakeTest.cpp src/FaceApp.cpp)
 target_link_libraries( FaceApp ${OpenCV_LIBS} )
+target_link_libraries(CMakeTest gtest_main)
+target_link_libraries(CMakeTest my_library)
 target_link_libraries(FaceApp
 my_library)
 

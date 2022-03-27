@@ -3,12 +3,12 @@
 #
 cmake_minimum_required (VERSION 3.8)
 
-project(FaceApp)
-
-find_package( OpenCV REQUIRED )
-include_directories( ${OpenCV_INCLUDE_DIRS} )
+project(App)
 
 # Добавьте источник в исполняемый файл этого проекта.
-add_library(FaceApp STATIC ../include/FaceApp.h "FaceApp.cpp")
-target_link_libraries(FaceApp ${OpenCV_LIBS})
+include_directories("../include")
+
+add_executable (App "App.cpp")
+target_link_libraries(App FaceApp)
+
 # TODO: Добавьте тесты и целевые объекты, если это необходимо.

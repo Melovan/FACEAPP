@@ -4,8 +4,8 @@
 using namespace cv;
 using namespace std;
 
-int adc() {
-    string faceCascadeName = "resources/face.xml";
+int main() {
+    string faceCascadeName = "..//..//..//..//..//FaceApp//resources//face.xml";
     CascadeClassifier faceCascade;
 
     if (!faceCascade.load(faceCascadeName)) {
@@ -13,7 +13,7 @@ int adc() {
         return -1;
     }
 
-    Mat faceMask = imread("resources/mask.jpg");
+    Mat faceMask = imread("../../../../../FaceApp/resources/mask.jpg");
 
     if (!faceMask.data) {
         cerr << "Error loading mask image. Exiting!" << endl;
