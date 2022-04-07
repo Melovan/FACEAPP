@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD 11)
 #find_package( OpenCV REQUIRED )
 #include_directories( ${OpenCV_INCLUDE_DIRS} )
 
-
+FILE(COPY "../resources" DESTINATION "${CMAKE_CURRENT_BINARY_DIR}")
 include(FetchContent)
 FetchContent_Declare(
   googletest

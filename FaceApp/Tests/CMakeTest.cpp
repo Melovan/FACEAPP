@@ -6,7 +6,7 @@
 class FaceAppTest : public testing::Test {
 protected:
     void SetUp() override {
-        faceMask = cv::imread("../../../../../FaceApp/resources/mask.jpg");
+        faceMask = cv::imread("resources/mask.jpg");
 
         if (!faceMask.data) {
             flag = 1;
