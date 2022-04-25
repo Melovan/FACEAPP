@@ -4,6 +4,8 @@
 using namespace cv;
 using namespace std;
 
+struct cat;
+
 int main() {
     string faceCascadeName = "resources//face.xml";
     CascadeClassifier faceCascade;
