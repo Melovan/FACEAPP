@@ -19,7 +19,8 @@
 # Fortran module files
 *.mod
 *.smod
-
+*.json
+*.vs
 # Compiled Static libraries
 *.lai
 *.la
@@ -32,3 +33,5 @@
 *.app
 
 out/
+latex/
+html/

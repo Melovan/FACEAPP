@@ -1,8 +1,7 @@
 #include <iostream>
 #include "FaceApp.h"
 #include <gtest/gtest.h>
-
-
+/*! \file */
 class FaceAppTest : public testing::Test {
 protected:
     void SetUp() override {

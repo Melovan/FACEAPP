@@ -4,8 +4,8 @@
 cmake_minimum_required (VERSION 3.8)
 
 project ("FaceAppApp")
-
 # Включите подпроекты.
 add_subdirectory ("FaceApp/Tests")
 add_subdirectory ("FaceApp/app")
 add_subdirectory ("FaceApp/src")
+add_subdirectory ("docs")

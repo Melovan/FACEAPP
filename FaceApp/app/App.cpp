@@ -3,7 +3,7 @@
 
 using namespace cv;
 using namespace std;
-
+/*! \file */
 int main() {
     string faceCascadeName = "resources//face.xml";
     CascadeClassifier faceCascade;
