@@ -27,7 +27,7 @@ jobs:
       uses: codecov/codecov-action@v3.1.0
     - uses: actions/checkout@v2
     - name: unzip
-      run: wget unzip
+      run: sudo apt-get install unzip
     - name: gtest
       run: wget https://github.com/google/googletest/archive/609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip && \
         unzip 609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip && \
