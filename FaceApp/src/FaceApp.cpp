@@ -18,7 +18,7 @@ int adc() {
     if (!faceMask.data) {
         cerr << "Error loading mask image. Exiting!" << endl;
     }
-
+    
     // Current frame
     Mat frame, frameGray;
     Mat frameROI, faceMaskSmall;
