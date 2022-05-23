@@ -31,7 +31,7 @@ RUN ls lib/
 RUN ls
 
 # Скопируем директорию /src в контейнер
-ADD ./fff /app/fff
+ADD . /app/fff
 RUN ls /usr/lib
 # Установим рабочую директорию для сборки проекта
 WORKDIR /app/build
