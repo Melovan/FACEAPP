@@ -26,4 +26,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: "melovan/faceapp":latest
+          tags: melovan/faceapp:latest
