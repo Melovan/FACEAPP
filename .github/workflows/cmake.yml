@@ -30,10 +30,10 @@ jobs:
       run: sudo apt-get update && sudo apt-get install unzip &&  sudo apt-get install wget &&
         wget https://github.com/google/googletest/archive/609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip && 
         unzip 609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip && 
-        cmake -DCMAKE_BUILD_TYPE=Release googletest-609281088cfefc76f9d0ce82e1ff6c30cc3591e5 && 
-        cmake --build . && 
-        make -j && 
-        make install
+        sudo cmake -DCMAKE_BUILD_TYPE=Release googletest-609281088cfefc76f9d0ce82e1ff6c30cc3591e5 && 
+        sudo cmake --build . && 
+        sudo make -j && 
+        sudo make install
     - name: Setup OpenCV
       uses: Dovyski/setup-opencv-action@v1
       with:
