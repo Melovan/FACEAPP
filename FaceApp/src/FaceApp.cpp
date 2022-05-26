@@ -3,6 +3,9 @@
 
 using namespace cv;
 using namespace std;
+
+/*! \file */
+
 /********************************************//**
  *  ... Copy App.cpp for the tests to work correctly,
  * since this is the only way to debug the code without creating a header

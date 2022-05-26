@@ -1,6 +1,9 @@
 #include <iostream>
 #include "FaceApp.h"
 #include <gtest/gtest.h>
+
+/*! \file */
+
 /********************************************//**
  *  ... A file with descriptions of Google Tests.
  * The tests are used to check the camera operation and verify

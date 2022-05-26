@@ -3,6 +3,8 @@
 using namespace cv;
 using namespace std;
 
+/*! \file */
+
 /********************************************//**
  *  ... The most important function of our project.
  * Reads cascade files and masks, then reads the stream from the camera,

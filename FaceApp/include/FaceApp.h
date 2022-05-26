@@ -5,6 +5,9 @@
 #include <iostream>
 #include <stdio.h>
 
+/*! \file */
+
+
 /********************************************//**
  *  ... Header file that connects other headers from the opencv environment
  ***********************************************/
