@@ -1,7 +1,7 @@
 [![ci](https://github.com/Melovan/FACEAPP/actions/workflows/docker.yml/badge.svg)](https://github.com/Melovan/FACEAPP/actions/workflows/docker.yml)
 [![CMake](https://github.com/Melovan/FACEAPP/actions/workflows/cmake.yml/badge.svg)](https://github.com/Melovan/FACEAPP/actions/workflows/cmake.yml)
-![release](https://img.shields.io/github/v/release/Melovan/FACEAPP?label=download&style=for-the-badge)
-[![YouTube](https://img.shields.io/youtube/channel/subscribers/UCwKC6hqvNKTjECnLHkv5DJw?style=for-the-badge)]
+![release](https://img.shields.io/github/v/release/Melovan/FACEAPP?label=download&style=flat-square)
+![YouTube](https://img.shields.io/youtube/channel/views/UCwKC6hqvNKTjECnLHkv5DJw?style=flat-square)
 [![Forks](https://img.shields.io/github/forks/Melovan/FACEAPP.svg?logo=github)](https://github.com/Melovan/FACEAPP/network/members)
 [![Issues](https://img.shields.io/github/issues/Melovan/FACEAPP.svg?logo=github)](https://github.com/Melovan/FACEAPP/issues)
 
