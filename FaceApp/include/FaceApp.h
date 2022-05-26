@@ -5,4 +5,8 @@
 #include <iostream>
 #include <stdio.h>
 
+/********************************************//**
+ *  ... Header file that connects other headers from the opencv environment
+ ***********************************************/
+
 int adc();

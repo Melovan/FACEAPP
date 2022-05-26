@@ -1,7 +1,11 @@
 #include <iostream>
 #include "FaceApp.h"
 #include <gtest/gtest.h>
-/*! \file */
+/********************************************//**
+ *  ... A file with descriptions of Google Tests.
+ * The tests are used to check the camera operation and verify
+ * the correct connection of OpenCV.
+ ***********************************************/
 class FaceAppTest : public testing::Test {
 protected:
     void SetUp() override {
@@ -31,9 +35,3 @@ TEST_F(FaceAppTest, camera_test)
 
     EXPECT_EQ(!cap.isOpened(), 0);
 }
-
-//TEST_F(HashTableTest, EraseWorks) {
-//    bool r = t1.erase("Clark Kent");
-//    EXPECT_EQ(r, true);
-//    EXPECT_EQ(t1["Clark Kent"].weight, 70);
-//}
