@@ -23,7 +23,7 @@ enable_testing()
 
 include_directories("../include")
 add_executable(Tests CMakeTest.cpp)
-target_link_libraries(Tests FaceApp gtest_main gtest )
+target_link_libraries(Tests FaceApp gtest_main gtest pthread)
 #target_link_libraries(Tests ${OpenCV_LIBS} FaceApp)
 
 
